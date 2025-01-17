@@ -26,7 +26,7 @@ function exibirMensagemInicial() {
 
 exibirMensagemInicial();
 
-// Criar função do chute
+// Criar função do chute informando a quantidade de chutes
 function verificarChute(){
     let chute = document.querySelector('input').value;
     if(chute == numeroSecreto){
